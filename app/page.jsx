@@ -62,7 +62,31 @@ const tasks = [
   },
   {
     id: 15,
-    instruction: `... continue with remaining tasks ...`,
+    instruction: `At the crossroads who finished rebuilding the market?`,
+  },
+  {
+    id: 16,
+    instruction: `Head down commercial street pass the colourful standard but be careful crossing the road to do so… you don’t have time to head into the market. What’s above suits redefined?`,
+  },
+  {
+    id: 17,
+    instruction: `Going down Bush Field street - what 2 things can you exchange?`,
+  },
+  {
+    id: 18,
+    instruction: `Isy’s maiden name is in between 59 and 57- what is it?`,
+  },
+  {
+    id: 19,
+    instruction: `Don’t get diverted by the traffic and keep on going towards the elephant - what could you discover?`,
+  },
+  {
+    id: 20,
+    instruction: `What’s the date of birth of Malkia?`,
+  },
+  {
+    id: 21,
+    instruction: `Almost at the end… Head towards to goat… and turn right.. where you’ll find To be ‘together forever on wheels’ who is this by?`,
   },
   // Add up to 21 tasks as needed
 ];

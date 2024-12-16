@@ -10,11 +10,11 @@ const tasks = [
   },
   {
     id: 2,
-    instruction: `Be careful when crossing the main road. It can be heart racing. To gain access for the code who do I call?`,
+    instruction: `Be careful when crossing the main road. It can be heart racing. To gain access what do I dial and who do I ask for?`,
   },
   {
     id: 3,
-    instruction: `Keep walking towards the bridge but way before you might need internet access. Be careful what is showing on the wall that is ‘unsafe’`,
+    instruction: `Keep walking towards the bridge but way before you might need internet access. Be careful, what is showing on the wall that is ‘unsafe’`,
   },
   {
     id: 4,
@@ -26,7 +26,7 @@ const tasks = [
   },
   {
     id: 6,
-    instruction: `Now turn right and head down the Road with a colour in it’s name:`,
+    instruction: `Now turn right and head down the Road with a colour in it’s name. What colour is it?`,
   },
   {
     id: 7,
@@ -42,11 +42,11 @@ const tasks = [
   },
   {
     id: 10,
-    instruction: `Feet East.  Stand on the Thames Water man hole facing out into the street. What number is behind High Grade Coffee?`,
+    instruction: `Keep on going until you get to the brewery and in particular 93 Feet East.  Stand on the Thames water man hole facing out into the street. What number is behind High Grade Coffee?`,
   },
   {
     id: 11,
-    instruction: `Head in that direction then turn right towards Rough Trade... What’s above east end promise?`,
+    instruction: `Keep heading down Brick Lane, walking on the right side of the street and turn right down Rough Trade... What’s above East End Promise?`,
   },
   {
     id: 12,
@@ -58,7 +58,7 @@ const tasks = [
   },
   {
     id: 14,
-    instruction: `Walk down that road and on the way (on the right) what can’t you steal? `,
+    instruction: `Walk on and turn right onto Hanbury Street, above eye height, what can’t you steal?`,
   },
   {
     id: 15,
@@ -66,7 +66,7 @@ const tasks = [
   },
   {
     id: 16,
-    instruction: `Ignore where Lambs live and get onto Commercial Street where you will pass Colourful Standard and not stop for a Wax.  And sorry, there is no time to head into Spitalfields market either. But tell me, what’s above suits redefined? `,
+    instruction: `Ignore where Lambs live and get onto Commercial Street where you will pass Colourful Standard. Do not stop for a Wax and sorry, there is no time to head into Spitalfields market either. But tell me, what’s above suits redefined?`,
   },
   {
     id: 17,
@@ -86,7 +86,7 @@ const tasks = [
   },
   {
     id: 21,
-    instruction: `Last one… Head towards the goal, turn right. Where you’ll find To be ‘together forever on wheels’ who is this by?`,
+    instruction: `Last one… Head towards the goat, turn right. Where you’ll find To be ‘together forever on wheels’ who is this by?`,
   },
   // Add up to 21 tasks as needed
 ];
@@ -270,7 +270,7 @@ export default function Home() {
               />
               {[1, 2, 4, 5, 8, 10, 20].includes(task.id) && (
                 <div className="clue-box">
-                  <label>Clue</label>
+                  <label>Number for Code</label>
                   <input
                     type="text"
                     value={answers[task.id] || ""}

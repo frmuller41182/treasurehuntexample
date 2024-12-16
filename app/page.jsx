@@ -94,7 +94,6 @@ const tasks = [
 export default function Home() {
   const [answers, setAnswers] = useState({});
 
-  // Run effect only once on mount by using an empty dependency array
   useEffect(() => {
     const savedAnswers = {};
     tasks.forEach((task) => {
@@ -107,6 +106,15 @@ export default function Home() {
   const handleSave = (id, value) => {
     localStorage.setItem(`answer-${id}`, value);
     setAnswers((prev) => ({ ...prev, [id]: value }));
+
+    // Add visual feedback for save
+    const saveButton = document.getElementById(`save-button-${id}`);
+    if (saveButton) {
+      saveButton.textContent = "Saved!";
+      setTimeout(() => {
+        saveButton.textContent = "Save";
+      }, 2000);
+    }
   };
 
   return (
@@ -258,8 +266,22 @@ export default function Home() {
                 }
                 placeholder="Your answer"
                 className="input"
+                style={{ backgroundColor: "#ffffff", color: "#000000" }}
               />
+              {[1, 2, 4, 5, 8, 10, 20].includes(task.id) && (
+                <div className="clue-box">
+                  <label>Clue</label>
+                  <input
+                    type="text"
+                    value={answers[task.id] || ""}
+                    readOnly
+                    className="input"
+                    style={{ backgroundColor: "#f0f0f0", color: "#000000" }}
+                  />
+                </div>
+              )}
               <button
+                id={`save-button-${task.id}`}
                 onClick={() => handleSave(task.id, answers[task.id] || "")}
                 className="button"
               >
@@ -283,6 +305,29 @@ export default function Home() {
           </p>
         </section>
       </main>
+      <style jsx>{`
+        .clue-box {
+          margin-top: 10px;
+        }
+        .input {
+          border: 1px solid #ddd;
+          padding: 10px;
+          border-radius: 4px;
+          width: 100%;
+          margin-top: 8px;
+        }
+        .button {
+          padding: 10px;
+          background-color: #0070f3;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        .button:hover {
+          background-color: #005bb5;
+        }
+      `}</style>
     </div>
   );
 }

@@ -119,22 +119,82 @@ export default function Home() {
 
       <main className="main">
         <section className="section">
-          <h1>Treasure Hunt</h1>
+          <h1>Welcome to the UKI Partner Treasure Hunt Adventure! 🗺️✨</h1>
+          <br></br>
           <p>
-            Welcome to the Treasure Hunt! Please read the rules below, form your
-            teams, and start tackling the tasks in order.
+            You’ve already embarked on an exciting journey with us, and now it's
+            time to dive into the next thrilling chapter! The Skill Showdown has
+            set the stage, putting you in either a winning position or ready to
+            make a comeback. Get ready to unleash your inner explorer as you
+            race toward the <b>Final Destination!</b> Here, you will face the
+            ultimate challenge: <b>Crack The Code!</b> Gather your team, sharpen
+            your wits, and let the hunt begin! Adventure awaits! 🌟🔍🏆
           </p>
-          <h2>Rules</h2>
+          <br></br>
+          <h2>Tenets</h2>
           <ul>
             <li>
-              Winner gets 1 minute head start to get clues from the floor below.
+              Team Spirit: "Together we thrive, because there's no 'I' in team!"
             </li>
             <li>
-              Next team leaves 1 minute after previous team has left in the lift
-              to floor above, and so on until all teams have left.
+              Safety First: "Adventure safely—your well-being is our treasure!"
             </li>
-            <li>Let’s get started and have fun!</li>
+            <li>
+              Speed and Precision: "Race with purpose—speed plus accuracy wins
+              the day!"
+            </li>
+            <li>
+              Enjoyment: "Savor every moment—let's enjoy the ride together!"
+            </li>
           </ul>
+          <br></br>
+          <h2>Rules</h2>
+          <h3>🎉 Let the Adventure Begin! 🎉</h3>
+          <ul>
+            <li>
+              <b>Meet-Up Spot:</b> Join us behind the reception area, the Amazon
+              Music DJ booth side of the building
+            </li>
+            <li>
+              <b>Head Start for Champions:</b> The winning team from the Skill
+              Showdown will kick things off with a <b>5-minute head start!</b>
+            </li>
+            <li>
+              <b>Timing is Key:</b> Following teams will set off every 2 minutes
+              after that. Keep your eyes on the clock!
+            </li>
+            <li>
+              <b>Emergency Help:</b> If you need assistance, you have the Task
+              Master’s phone number: <b>07717 899007</b>. Use it wisely!
+            </li>
+            <li>
+              <b>One Lifeline:</b> You can call that number <b>once</b> if
+              you're stuck on a question, but remember, only the Team Leader can
+              make that call!
+            </li>
+            <li>
+              <b>Good Luck!:</b> May the best team win, and most importantly,{" "}
+              <b>enjoy the ride!</b>
+            </li>
+          </ul>
+          <br></br>
+          <h2>⏰ Final Cut-Off</h2>
+          <p>
+            Make sure to return by <b>6:30 PM</b> at the venue.
+          </p>
+          <br></br>
+          <h2>How to Play: The Adventure Awaits! 🚀</h2>
+          <p>
+            To reach the <b>Final Destination</b>, you’ll need to solve a series
+            of clues that lead the way! 🕵️‍♂️🔍 But that's not all—your mission is
+            to <b>Crack The Code!</b> Some of the clues will reveal important
+            numbers you’ll need to collect. Once you have those numbers, you’ll
+            need to perform a calculation to uncover the <b>final code!</b>{" "}
+            Remember, winning isn’t just about speed or answering the clues
+            correctly; it’s also about cracking that code! So gear up for an
+            exhilarating challenge, and good luck! We can’t wait to see you on
+            the other side! 🌟🏆
+          </p>
         </section>
 
         <section className="section">
@@ -212,9 +272,9 @@ export default function Home() {
         <section className="section">
           <h2>Final Instruction</h2>
           <p>
-            Once you’ve completed all tasks and saved all your answers, please
-            head back to the starting point and report your findings to the Task
-            Master!
+            Head to market street and let’s meet at The Players Social for
+            drinks, food, music and prizes Go the photobooth and get a team
+            photo!
           </p>
         </section>
       </main>

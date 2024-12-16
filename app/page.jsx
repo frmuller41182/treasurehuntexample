@@ -6,35 +6,35 @@ import Head from "next/head";
 const tasks = [
   {
     id: 1,
-    instruction: `Leave LHR16, don’t be a Douce or a Vagabond, head towards ‘the light’ through illumino city. How many white bulbs do you pass?`,
+    instruction: `Leave LHR16, don’t be a Douce or a Vagabond, head towards ‘the light’ through illumino city. How many light bulbs do you pass?`,
   },
   {
     id: 2,
-    instruction: `Be careful of the main road. It can be heart racing. To gain access for the code who do I call?`,
+    instruction: `Be careful when crossing the main road. It can be heart racing. To gain access for the code who do I call?`,
   },
   {
     id: 3,
-    instruction: `I need internet access but be careful what is unsafe?`,
+    instruction: `Keep walking towards the bridge but way before you might need internet access. Be careful what is showing on the wall that is ‘unsafe’`,
   },
   {
     id: 4,
-    instruction: `Look up the sign for TEA and/or head EAST for PIZZA... on the way look out for some fun and find out who is king ...`,
+    instruction: `Look up, beyond the bridge and see the sign for TEA… on the way see when The Super Bowl LIX live is screening.`,
   },
   {
     id: 5,
-    instruction: `Before you arrive for Pizza, A5 is what on street finder?`,
+    instruction: `Stop, do not cross the road for Pizza, there is a place on street finder you will be familiar with, it’s mapping is A5, what is it:`,
   },
   {
     id: 6,
-    instruction: `Head down the road with a colour in the title...`,
+    instruction: `Now turn right and head down the Road with a colour in it’s name:`,
   },
   {
     id: 7,
-    instruction: `Before you get to the overground what is under rich mix?`,
+    instruction: `Head to the Overground but not in it. See the signs for Bethnal Green & Liverpool Street? What is the Road called under Rich Mix?`,
   },
   {
     id: 8,
-    instruction: `Head down Sclater Street don’t stop for a cocktail or be healthy and try yoga. What number is brick lane vintage?`,
+    instruction: `Ignore Braithwaite Street, head straight ahead, it’s called Sclater Street but you might not see the sign… so just go straight. Don’t be tempted by The Cocktail Club, keep moving and no need to TriYoga… Keep focused, keep going forth. What number is Brick Lane Vintage?`,
   },
   {
     id: 9,
@@ -42,35 +42,35 @@ const tasks = [
   },
   {
     id: 10,
-    instruction: `Keep on going until you get to the brewery and you’re 93 feet east. If you’re stood on Thames water what number is behind high grade coffee?`,
+    instruction: `Feet East.  Stand on the Thames Water man hole facing out into the street. What number is behind High Grade Coffee?`,
   },
   {
     id: 11,
-    instruction: `Head in that direction then turn right towards rough trade... What’s above east end promise?`,
+    instruction: `Head in that direction then turn right towards Rough Trade... What’s above east end promise?`,
   },
   {
     id: 12,
-    instruction: `Pass rough trade and head towards the space invader - what’s in progress?`,
+    instruction: `Walk down this parade and stop at the end, Birkenstocks, what is in progress?`,
   },
   {
     id: 13,
-    instruction: `Pass the pavilion and head in the direction of Gucci - if I want a work space/event space/market what number do I call?`,
+    instruction: `Now at the end of the Parade, turn left and head in the direction of Gucci.  If I was a Tru Man and wanted workspace/event space/market what number do I call? `,
   },
   {
     id: 14,
-    instruction: `Turn right down Hanbury street - what can’t you steal?`,
+    instruction: `Walk down that road and on the way (on the right) what can’t you steal? `,
   },
   {
     id: 15,
-    instruction: `At the crossroads who finished rebuilding the market?`,
+    instruction: `At the Crossroads, cross over.  Who on Lamb Street finished rebuilding the market?`,
   },
   {
     id: 16,
-    instruction: `Head down commercial street pass the colourful standard but be careful crossing the road to do so… you don’t have time to head into the market. What’s above suits redefined?`,
+    instruction: `Ignore where Lambs live and get onto Commercial Street where you will pass Colourful Standard and not stop for a Wax.  And sorry, there is no time to head into Spitalfields market either. But tell me, what’s above suits redefined? `,
   },
   {
     id: 17,
-    instruction: `Going down Bush Field street - what 2 things can you exchange?`,
+    instruction: `You are so close now… Head right down Brushfield Street.  What 2 things can you exchange above the Corporation of London?`,
   },
   {
     id: 18,
@@ -78,15 +78,15 @@ const tasks = [
   },
   {
     id: 19,
-    instruction: `Don’t get diverted by the traffic and keep on going towards the elephant - what could you discover?`,
+    instruction: `Keep going the clock is ticking and you are so close.  Head towards the elephants. Ignore any Benefits.  What could you discover at the Salon?`,
   },
   {
     id: 20,
-    instruction: `What’s the date of birth of Malkia?`,
+    instruction: `Now find your elephant.  What’s the date of birth for Malkia?`,
   },
   {
     id: 21,
-    instruction: `Almost at the end… Head towards to goat… and turn right.. where you’ll find To be ‘together forever on wheels’ who is this by?`,
+    instruction: `Last one… Head towards the goal, turn right. Where you’ll find To be ‘together forever on wheels’ who is this by?`,
   },
   // Add up to 21 tasks as needed
 ];

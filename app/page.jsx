@@ -26,7 +26,7 @@ const tasks = [
   },
   {
     id: 6,
-    instruction: `Head down the road with a colour in the title... (not an answer but a direction Bethnal Green)`,
+    instruction: `Head down the road with a colour in the title...`,
   },
   {
     id: 7,

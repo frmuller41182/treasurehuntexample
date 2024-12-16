@@ -97,6 +97,10 @@ ul {
   padding-left: 20px;
 }
 
+ol li {
+  padding-left: 21 px;
+}
+
 @media (max-width: 600px) {
   .container {
     padding: 10px;
@@ -104,4 +108,33 @@ ul {
   .section {
     padding: 15px;
   }
+}
+
+.intro {
+  background-color: #ff8c42;
+  color: #171717; /* Ensures text remains dark and readable */
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.players-social-image {
+  display: block;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.input:hover,
+.input:focus {
+  border-color: #0070f3;
+  box-shadow: 0 0 5px rgba(0, 112, 243, 0.5);
+}
+
+.button:hover {
+  background: #005bb5;
+  transform: translateY(-2px);
+  transition: all 0.2s ease-in-out;
 }

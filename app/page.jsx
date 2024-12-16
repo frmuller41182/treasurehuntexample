@@ -126,7 +126,7 @@ export default function Home() {
       </Head>
 
       <main className="main">
-        <section className="section">
+        <section className="section intro">
           <h1>Welcome to the UKI Partner Treasure Hunt Adventure! 🗺️✨</h1>
           <br></br>
           <p>

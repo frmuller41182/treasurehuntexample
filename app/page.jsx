@@ -203,6 +203,17 @@ export default function Home() {
             exhilarating challenge, and good luck! We can’t wait to see you on
             the other side! 🌟🏆
           </p>
+          <br></br>
+          <h2>Cracking the Code</h2>
+          <p>
+            You will have collected a few numbers along the way under ‘Number(s)
+            for Code’ in the App. To help, look at questions: 1,2, 4,8,10 and
+            20. You will need to add all the numbers and then divide by 21. This
+            will give you a 4 digit code, to which you will need to unlock a
+            padlock. NB: It’s the first 4 numbers before the decimal point. Eg:
+            1234.5678 = 1234. First to crack the code will gain an additional 20
+            points, 10 for the second, 5 for the 3rd and 2 for last.
+          </p>
         </section>
 
         <section className="section">
@@ -216,7 +227,6 @@ export default function Home() {
                 <li>Jaco</li>
                 <li>James</li>
                 <li>Victoria</li>
-                <li>Lorna</li>
               </ul>
             </div>
             <div className="team">
@@ -244,7 +254,7 @@ export default function Home() {
               <ul>
                 <li>Scott</li>
                 <li>Sander</li>
-                <li>Helena</li>
+                <li>Lorna</li>
                 <li>Sophie M</li>
               </ul>
             </div>
@@ -268,7 +278,7 @@ export default function Home() {
                 className="input"
                 style={{ backgroundColor: "#ffffff", color: "#000000" }}
               />
-              {[1, 2, 4, 5, 8, 10, 20].includes(task.id) && (
+              {[1, 2, 4, 8, 10, 20].includes(task.id) && (
                 <div className="clue-box">
                   <label>Number for Code</label>
                   <input
@@ -289,6 +299,21 @@ export default function Home() {
               </button>
             </div>
           ))}
+        </section>
+        <section className="section">
+          <p>So Treasure Hunters, your final destination ends with:</p>
+          <br></br>
+          <h2>Cracking the Code!</h2>
+          <br></br>
+          <p>
+            You will have collected a few numbers along the way under ‘Number(s)
+            for Code’ in the App. To help, look at questions: 1,2, 4,8,10 and
+            20. You will need to add all the numbers and then divide by 21. This
+            will give you a 4 digit code, to which you will need to unlock a
+            padlock. NB: It’s the first 4 numbers before the decimal point. Eg:
+            1234.5678 = 1234. First to crack the code will gain an additional 20
+            points, 10 for the second, 5 for the 3rd and 2 for last.
+          </p>
         </section>
 
         <section className="section">

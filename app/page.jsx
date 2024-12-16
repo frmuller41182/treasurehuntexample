@@ -303,6 +303,11 @@ export default function Home() {
             {" "}
             <b>Address: 1 Crispin Place, Spitalfields, London, E1 6DW</b>
           </p>
+          <img
+            src="/Players_Social.png"
+            alt="Players Social"
+            style={{ width: "100%", marginTop: "20px", borderRadius: "8px" }}
+          />
         </section>
       </main>
       <style jsx>{`

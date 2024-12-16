@@ -276,6 +276,11 @@ export default function Home() {
             drinks, food, music and prizes Go the photobooth and get a team
             photo!
           </p>
+          <br></br>
+          <p>
+            {" "}
+            <b>Address: 1 Crispin Place, Spitalfields, London, E1 6DW</b>
+          </p>
         </section>
       </main>
     </div>
